@@ -4,13 +4,13 @@
 #### ―Qui-Gon Jinn, to Anakin Skywalker
 ---------------------------------------
 
-As devs we use the force daily to accomplish miniscule tasks, but these task will one day help us because Jedi Masters.
+####A s devs we use the force daily to accomplish miniscule tasks in an effor to become Jedi Masters.####
 
-The idea with this assessment is simple - to see your level of force and it tests a bit of laravel knowledge
+The idea is simple here - lets see how much you can use the force to accomplish the items below. (PS: It also tests a bit of Laravel knowledge)
 
 - Install a clean version of Laravel
-- Create your own branch on this repo
-- Create a custom laravel package in the root of the Laravel installation as follows: <lrvl root>/acme/the-force
+- Checkout the repo and create your own branch on this repo
+- Create a custom laravel package in the root of the Laravel installation as follow: <lrvl root>/packages/acme/the-force
 - Create a service provider for you package and wire into laravel installation (hint: composer.json and app/config) 
 - Enhance your package to and create 2 routes contained with a routes file in your package that 
   - calls 2 urls - '/without-facade-override' and '/with-facade-override'
@@ -20,4 +20,8 @@ The idea with this assessment is simple - to see your level of force and it test
 - Enhance you package and implement facade (in your package) called from your controller methods that
   - on one route displays text indicating the normal facade implementation was used
   - on the other route shows text indicating how the original implamentation of the facade was overriden
-- Once you are happy commit ONLY THE PACKAGE CODE back to your created branch
+- Once you are happy commit ONLY THE PACKAGE CODE back to your created branch (meaning the <lrvl root>/packages folder with everything underneath)
+- Create a pull request back to master
+  
+  
+ 
