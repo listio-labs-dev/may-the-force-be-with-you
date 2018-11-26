@@ -14,7 +14,8 @@
   - Create a folder: <lrvl root>/packages/acme/the-force along with its service provider
   - Wire the custom package's service provider into the Laravel installation (hint: composer.json and app/config) 
 - Enhance your package by creating the package's own routes file that exposes 2 routes/urls - '/without-facade-override' and '/with-facade-override'
-  - BEFORE YOU CONINUTE, STOP AND READ THIS QUICKLY: What I am trying to say is that you must NOT use the Laravel's routes/web.php file, but rather that your package need to have its own way of handling routes (hint: you can do it in your service provider)
+  - BEFORE YOU CONTINUE, STOP AND READ THIS QUICKLY: 
+    - What I am trying to say is that you must NOT use the Laravel's routes/web.php file, but rather that your package need to have its own way of handling routes (hint: you can do it in your service provider)
 - Enhance your package by creating a the package's own controller with 2 methods for the previously defined package routes need to pass data to two views (also contained in your package).
 - Enhance you package by implementing a facade (in your package) with a method that is called from your controller methods that:
   - on the '/without-facade-override' route displays text indicating the normal facade implementation
