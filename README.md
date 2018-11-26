@@ -15,9 +15,9 @@ The idea with this assessment is simple - to see your level of force and it test
 - Enhance your package to and create 2 routes contained with a routes file in your package that 
   - calls 2 urls - '/without-facade-override' and '/with-facade-override'
   - ALSO This means that that you do NOT use the laravel's routes/web.php file, but that your package need to have its own way of doing routes (hint: you can do it in your service provider)
-- Enhance your package and implement a controller in your package with 2 methods for the previously defined package routes that 
-  - need to pass on data to two views also contained in your package
-- Create and implement facade in your package that:
+- Enhance your package and implement a controller in your package with 2 methods for the previously defined package routes that:
+  - need to pass data to two views (also contained in your package)
+- Enhance you package and implement facade (in your package) called from your controller methods that
   - on one route displays text indicating the normal facade implementation was used
   - on the other route shows text indicating how the original implamentation of the facade was overriden
 - Once you are happy commit ONLY THE PACKAGE CODE back to your created branch
