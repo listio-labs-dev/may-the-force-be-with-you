@@ -15,7 +15,7 @@ The idea with this assessment is simple - to see yuor level of force usage and i
 - Create a controller in your package with the 2 routes that
   - calls 2 urls - '/without-facade-override' and '/with-facade-override'
   - need to feed data to two views also contained in your package
-- Create a facade from within your package that
+- Create and implement facade from within your package that:
   - on one route displays text indicating the normal facade implementation was used
   - on the other route shows text indicating how the original implamentation of the facade was overriden
 - Once you are happy commit ONLY THE PACAKGE CODE back to your created branch
