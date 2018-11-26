@@ -4,9 +4,8 @@
 #### ―Qui-Gon Jinn, to Anakin Skywalker
 ---------------------------------------
 
-####A s devs we use the force daily to accomplish miniscule tasks in an effor to become Jedi Masters.####
-
-The idea is simple here - lets see how much you can use the force to accomplish the items below. (PS: It also tests a bit of Laravel knowledge)
+#### As devs we use the force daily to accomplish miniscule tasks in an effor to become Jedi Masters. ####
+#### The idea is simple: let's see how much you can use the force to accomplish the items below. (PS: It also tests a bit of Laravel knowledge) ####
 
 - Install a clean version of Laravel
 - Checkout the repo and create your own branch on this repo
