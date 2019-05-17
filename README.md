@@ -20,6 +20,7 @@
 - Enhance you package by implementing a facade (in your package) with a method that is called from your controller methods that:
   - on the '/without-facade-override' route displays text indicating the normal facade implementation
   - on the ''/with-facade-override'' route shows text indicating how the original implementation of the facade underlying implementation swopped.
+- Enhance your package with a a runnable artisan command that will select users out of the lrvl users table and display them on screen
 - Once you are happy commit ONLY THE PACKAGE CODE back to your github created branch (meaning the <lrvl root>/packages folder with everything underneath)
 - Create a pull request back to master
   
