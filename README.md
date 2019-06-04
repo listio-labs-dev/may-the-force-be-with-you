@@ -9,7 +9,7 @@
 #### The idea is simple: let's see how much you can use the force to accomplish the items below. (PS: It also tests a bit of Laravel knowledge) ####
 
 - On your machine install a clean version of Laravel
-- Checkout the repo and create your own branch on this repo.
+- Create your own fork of this repo.
 - Create a custom Laravel package in the root of the Laravel installation as follow: 
   - Create a folder: <lrvl root>/packages/acme/the-force along with its service provider
   - Wire the custom package's service provider into the Laravel installation (hint: composer.json and app/config) 
@@ -21,8 +21,8 @@
   - on the '/without-facade-override' route displays text indicating the normal facade implementation
   - on the ''/with-facade-override'' route shows text indicating how the original implementation of the facade underlying implementation swopped.
 - Enhance your package with a a runnable artisan command that will select users out of the lrvl users table and display them on screen
-- Once you are happy commit ONLY THE PACKAGE CODE back to your github created branch (meaning the <lrvl root>/packages folder with everything underneath)
-- Create a pull request back to master
+- Once you are happy commit ONLY THE PACKAGE CODE back to your github created fork (meaning the <lrvl root>/packages folder with everything underneath)
+- Create a pull request back to this repo
   
   
  
