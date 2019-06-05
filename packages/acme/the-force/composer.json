@@ -1,0 +1,12 @@
+{
+    "name": "acme/the-force",
+    "description": "This is a demo package for learning",
+    "authors": [
+        {
+            "name": "Lawrence Chibondo",
+            "email": "lawkunchi@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
